@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mnuSplash"
+        android:title="Splash Screen"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/mnuLogin"
+        android:title="Login"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/mnuSignUp"
+        android:title="Sign Up"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/mnuContactUs"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/mnuAboutUs"
+        android:title="About Us"
+        app:showAsAction="never"/>
+</menu>
