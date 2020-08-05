@@ -2,6 +2,7 @@ package com.example.thecakebake;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 public class AboutUsActivity extends AppCompatActivity {
@@ -10,5 +11,6 @@ public class AboutUsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
+        this.setTitle("About Us");
     }
 }
