@@ -24,9 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topView"
-        app:srcCompat="@drawable/icon2"
-        android:text="@string/about_des"
-        />
+        app:srcCompat="@drawable/icon2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,11 +45,26 @@
         android:layout_marginTop="46dp"
         android:paddingLeft="18dp"
         android:paddingRight="18dp"
-        android:text="TextView"
+        android:text="@string/about_des"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="@string/about_des2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
