@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".ContactUsActivity">
 
+    <View
+        android:id="@+id/topView2"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Get in touch"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
