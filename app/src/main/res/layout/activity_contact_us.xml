@@ -20,7 +20,7 @@
         android:id="@+id/getintouch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get in touch"
+        android:text="@string/contact_title"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         android:gravity="center"
         android:paddingLeft="48dp"
         android:paddingRight="48dp"
-        android:text="Shop No 12, Nilkhnth Plaza, Mavdi Main Road, Bapa Sitaram Chowk, Rajkot, Gujarat 360004"
+        android:text="@string/contact_address"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,7 @@
         app:layout_constraintTop_toBottomOf="@+id/emailIcon" />
 
     <TextView
-        android:id="@+id/mdes"
+        android:id="@+id/Edes"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"

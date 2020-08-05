@@ -2,4 +2,6 @@
     <string name="app_name">The Cake Bake</string>
     <string name="about_des">The Cake Bake Shop is a restaurant and bakery known worldwide for our outstanding desserts. We have won numerous awards and have been voted best in the State from our quiche to our cakes.</string>
     <string name="about_des2">The key to our unparalleled success is our team members, customer service and using only the finest ingredients in our cakes to create a product that becomes a magical experience for each and every guest</string>
+    <string name="contact_title">Get in touch</string>
+    <string name="contact_address">Shop No 12, Nilkhnth Plaza, Mavdi Main Road, Bapa Sitaram Chowk, Rajkot, Gujarat 360004</string>
 </resources>
